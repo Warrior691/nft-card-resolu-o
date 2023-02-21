@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.content{
+    width: 300px;
+    height: 480px;
+    /* background-color: hsl(216, 50%, 16%); */
+    background-color: hsl(216, 50%, 16%);
+    margin:0 auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    color: hsl(215, 32%, 27%);
+    box-shadow: 5px 4px 10px hsl(216, 49%, 11%);
+}
+.content-img{
+    width: 100%;
+    height: 250px;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.content-hover{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    background-image: url(images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    opacity:0;
+    transition: opacity .3s linear;
+}
+.content-hover:hover{
+    opacity: 1;
+}
+h3 a{
+    text-decoration: none;
+    color: white;
+    transition: .2s linear;
+}
+h3 a:hover{
+    color: hsl(178, 100%, 50%);
+}
+h3{
+    margin-bottom: 10px;
+}
+.content-ethen{
+    margin: 18px 0;
+}
+.content-ethen img{
+    float: left;
+    margin-right: 6px;
+}
+.content-time img{
+    float: left;
+    margin-right: 6px;
+}
+.content-ethen p{
+    color: hsl(178, 100%, 50%);
+}
+.content-time{
+    position: relative;
+    bottom: -20px;
+    left: 40px;
+}
+.content-icon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: solid 2px hsl(215, 32%, 27%);
+}
+.content-avatar{
+    margin: 20px auto;
+}
+.content-avatar img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 12px;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+.content-avatar p a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+.content-avatar p a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.attribution{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    color: hsl(215, 32%, 27%);
+}
+.attribution a{
+    text-decoration: none;
+    color: white;
+}
